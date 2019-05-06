@@ -1,0 +1,10 @@
+firstName = input();
+lastName = input();
+address = input();
+gender = input();
+tel = input();
+print("--- Customer Detail ---");
+print("Name : " + firstName + " " + lastName);
+print("Address : " + address);
+print("Gender : " + gender);
+print("Tel : " + tel);

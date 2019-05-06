@@ -1,0 +1,12 @@
+product = ["A","B","C","D","F"];
+sold = [];
+text = input();
+sold.append(text);
+sold.append(input());
+sold.append(input());
+print(":: Bill ::");
+print(sold[0]);
+print(sold[1]);
+print(sold[2]);
+product.remove(sold[0]);
+print(product);
